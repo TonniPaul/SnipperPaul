@@ -87,6 +87,7 @@ nav{
     border: none;
     text-align: left;
     cursor: pointer;
+    margin-bottom: 4em;
 }
 /*=========DROPDOWN NAV
 =========*/
@@ -226,7 +227,7 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding-top: 3em;
+        padding-top: 1em;
     }
     .foot-text a{
         margin-right: 0;
