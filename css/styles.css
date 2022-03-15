@@ -115,14 +115,16 @@ nav>ul{
     text-align: center;
     border-radius: .5em;
     opacity: 0;
-    pointer-events: none;
+    -webkit-pointer-events: none;
     -webkit-transform: translateY(10px);
     -webkit-transition: all 0.4s ease;
 }
 @-webkit-keyframes .dropdown ul{
     10px{
+
         -webkit-transform: translateY(10px);
         -webkit-transition: all 0.4s ease;
+        -webkit-pointer-events:none;
     }
 } 
 .dropdown ul li{
@@ -141,11 +143,12 @@ nav>ul{
     .dropdown a:focus + ul{
         opacity: 1;
         -webkit-transform: translateY(0);
-        pointer-events: all;
+        -webkit-pointer-events: all;
     }
 @-webkit-keyframes  .dropdown a:focus + ul {
     0%{ 
-        -webkit-transform: translateY(0)
+        -webkit-transform: translateY(0);
+        -webkit-pointer-events: all;
     }
  }
     
