@@ -115,16 +115,16 @@ nav>ul{
     text-align: center;
     border-radius: .5em;
     opacity: 0;
-    -webkit-pointer-events: none;
+    pointer-events: none;
     -webkit-transform: translateY(10px);
     -webkit-transition: all 0.4s ease;
 }
 @-webkit-keyframes .dropdown ul{
-    10px{
+    0%{
 
         -webkit-transform: translateY(10px);
         -webkit-transition: all 0.4s ease;
-        -webkit-pointer-events:none;
+
     }
 } 
 .dropdown ul li{
@@ -151,8 +151,6 @@ nav>ul{
         -webkit-pointer-events: all;
     }
  }
-    
-}
 
 /*=========BOTTOM CONT
 ==========*/
